@@ -2,7 +2,7 @@
 title: Forty
 subtitle: by HTML5 UP
 email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Desarrollador web con experiencia en Php, Javascript, Html y Scrum.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
@@ -34,3 +34,10 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+gems:
+  - jekyll-multiple-languages-plugin
+
+# multilanguages https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin#3-installation
+languages: ["es", "en"]
+exclude_from_localizations: ["javascript", "images", "css"]
